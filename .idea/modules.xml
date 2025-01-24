@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Java_Prep_Series.iml" filepath="$PROJECT_DIR$/.idea/Java_Prep_Series.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Type_Casting/Type_Casting.iml" filepath="$PROJECT_DIR$/Type_Casting/Type_Casting.iml" />
     </modules>
   </component>
 </project>
