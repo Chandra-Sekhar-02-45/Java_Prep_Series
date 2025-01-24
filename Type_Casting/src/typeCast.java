@@ -9,7 +9,7 @@ class typeCast{
        System.out.println(b);
 
         int a2=257;
-        byte b2=(byte) a2; // 257%256 = 1 ( range of byte is 256)
+        byte b2=(byte) a2; // 257%256 = 1 ( range of byte is 256 )
         System.out.println(b2);
 
     }
