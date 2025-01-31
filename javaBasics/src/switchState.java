@@ -10,7 +10,7 @@ public class switchState {
         switch(sc.nextInt()) {
             case 1:
                 System.out.println("Monday");
-                break;     //If don't write break statement it continous printing till the condition ends
+                break;     //If we don't write break statement it will continue to the print the conditions till end
             case 2:
                 System.out.println("Tuesday");
                 break;
