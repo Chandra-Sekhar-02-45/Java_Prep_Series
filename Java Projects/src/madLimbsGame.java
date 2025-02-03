@@ -30,7 +30,7 @@ public class madLimbsGame{
         adjective3 = sc.nextLine();
 
         //Story Begins
-        System.out.println("On a "+ adjective1 +" Halloween night, a group of friends decide to visit the old " + noun1 + ".");
+        System.out.println("\nOn a "+ adjective1 +" Halloween night, a group of friends decide to visit the old " + noun1 + ".");
         System.out.println("They " + verb1 +" through the dark forest, feeling very " + adjective2 +".");
         System.out.println("Suddenly, they heard a noise coming from the forest.");
         System.out.println("They decided to " + verb2 +" close to investigate.");
