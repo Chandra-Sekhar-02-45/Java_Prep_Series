@@ -9,7 +9,7 @@ public class shoppingCart {
         String item;
         double price;
         int quantity;
-        char currency = '$'; // char should not use double quotes
+        // char should not use double quotes
 
         System.out.print("What item would like to buy?: ");
         item = sc.nextLine();
@@ -22,12 +22,10 @@ public class shoppingCart {
 
         double total = price * quantity;
 
-        System.out.print("");
+        System.out.print("\nYou have bought " + quantity + " of " + item + "/s");
+        System.out.println("\nYour total price is $" + total);
 
-
-
-
-
+        sc.close();
     }
 
 }
