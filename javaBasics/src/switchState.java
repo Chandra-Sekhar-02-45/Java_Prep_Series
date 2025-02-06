@@ -5,7 +5,7 @@ public class switchState {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter : ");
+        System.out.print("\nEnter the number of a week : ");
 
         switch(sc.nextInt()) {
             case 1:
