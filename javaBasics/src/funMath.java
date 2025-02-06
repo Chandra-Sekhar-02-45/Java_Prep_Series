@@ -47,13 +47,13 @@ public class funMath {
                 }
                 break;
 
-            case 5:  // Rounding function
+            case 5:  
                 System.out.println("Enter a decimal number to round off: ");
                 double roundNum = sc.nextDouble();
                 System.out.println("Rounded value: " + Math.round(roundNum));
                 break;
 
-            case 6:  // Minimum & Maximum
+            case 6: 
                 System.out.println("Enter two numbers to find the minimum and maximum:");
                 int num1 = sc.nextInt();
                 int num2 = sc.nextInt();
@@ -61,7 +61,7 @@ public class funMath {
                 System.out.println("Maximum value: " + Math.max(num1, num2));
                 break;
 
-            case 7:  // Ceil & Floor
+            case 7:  
                 System.out.println("Enter a decimal number to find its ceil and floor values:");
                 double decimalNum = sc.nextDouble();
                 System.out.println("Ceiling value: " + Math.ceil(decimalNum));
