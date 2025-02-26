@@ -18,14 +18,13 @@ public class nestedConditional {
 
         if(isStudent) {
             if(isSenior) {
-                System.out.print("Student Discount is 10%");
-                System.out.print("\nSenior Discount is 20%");
+                System.out.print("You get a both Student Discount - 10% And Senior Discount - 20% ");
                 Discount = 1 - (studentDiscount + seniorDiscount);
                 Cost = ticketPrice * Discount;
                System.out.println("\nTotal cost is $" + Cost);
             }
             else {
-                System.out.print("Student Discount is 10%");
+                System.out.print("You get a Student Discount - 10%");
                 Discount = 1 - studentDiscount;
                 Cost = ticketPrice * Discount;
               System.out.println("\nTotal cost is $" + Cost);
@@ -33,15 +32,15 @@ public class nestedConditional {
         }
         else {
            if(isSenior) {
-               System.out.print("Senior Discount is 20%");
+               System.out.print("You get a Senior Discount - 20%");
                Discount = 1 - seniorDiscount;
                Cost = ticketPrice * Discount;
              System.out.println("\nTotal cost is $" + Cost);
            }
            else {
-
+               System.out.print("You get a No Discount");
                Cost = ticketPrice * 1;
-             System.out.println("\nTotal cost is $" + Cost);
+               System.out.println("\nTotal cost is $" + Cost);
            }
         }
 
