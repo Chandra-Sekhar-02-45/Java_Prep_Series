@@ -22,6 +22,7 @@ public class maxMinPartitions {
             min_diff = Math.min(diff, min_diff);                  // Update minimum difference if current diff is smaller
         }
 
-        System.out.println(min_diff);                             // Print the minimum adjacent difference
+        System.out.println(min_diff);
+        // Print the minimum adjacent difference
     }
 }
