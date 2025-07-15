@@ -4,7 +4,7 @@ package PatternPrinting;                                           // Define pac
 
 import java.util.*;                                                // Import utility package for Scanner
 
-public class Triangle {
+public class Triangle1 {
 
     // Method to print the number triangle pattern
     public static void nTriangle(int n) {
