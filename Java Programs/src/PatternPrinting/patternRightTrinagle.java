@@ -4,7 +4,7 @@ package PatternPrinting;                                           // Define pac
 
 import java.util.*;                                                // Import utility package for Scanner
 
-public class starPatternRightTrinagle {
+public class patternRightTrinagle {
 
     // Method to print the star triangle pattern with custom symbol
     public static void printTriangle(int n, String sp) {
