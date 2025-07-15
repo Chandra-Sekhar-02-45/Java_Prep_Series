@@ -10,7 +10,7 @@ public class starPatternRightTrinagle {
     public static void printTriangle(int n, String sp) {
         for (int i = 1; i <= n; i++) {                             // Loop for each row
             for (int j = 1; j <= i; j++) {                         // Loop to print increasing symbols
-                System.out.print(sp);                              // Print custom symbol
+                System.out.print(sp + " ");                              // Print custom symbol
             }
             System.out.println();                                  // Move to next line after each row
         }
