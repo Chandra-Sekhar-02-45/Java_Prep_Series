@@ -1,3 +1,5 @@
+package Basics;
+
 class typeCast{
 
     public static void main(String args[]){

@@ -1,6 +1,8 @@
+package Problems;
+
 import java.util.Scanner;
 
-public class switchStatements {
+public class funMath {
     public static void main(String[] args) {
 
         System.out.println("\nWelcome to Fun Math!");
