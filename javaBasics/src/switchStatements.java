@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class funMath {
+public class switchStatements {
     public static void main(String[] args) {
 
         System.out.println("\nWelcome to Fun Math!");
