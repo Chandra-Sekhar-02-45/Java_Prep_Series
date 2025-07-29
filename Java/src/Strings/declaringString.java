@@ -35,13 +35,12 @@ public class declaringString {
         System.out.println(str1 + " Raju"); // Combines both strings
         System.out.println();
 
-        System.out.println(str1 == str2);
+        System.out.println(str1 == str2); // Output : false
         // This will print false because str1 and str2 refer to different memory locations.
-        // In Java, the == operator compares memory addresses (references), not the content of the string.
         // Since str1 is a string literal (stored in the String Pool) and str2 is created using new (stored in the heap), they are not the same reference.
         System.out.println();
 
-        System.out.println(str1 == str3);
+        System.out.println(str1 == str3); // Output : true
         // str1 and str3 refer to the same memory location in the String Pool.
         // Although they are different variables, Java optimizes memory by storing identical string literals at one place.
         // By providing the same memory address
@@ -57,8 +56,9 @@ public class declaringString {
 
         System.out.println(str3.equals(str4));;
         // To avoid these confusions java introduces a method known as (equals) ,
-        // so it checks only the value inside the given var.
+        // so it checks only the value inside the given variable.
         System.out.println();
+
 
 
     }

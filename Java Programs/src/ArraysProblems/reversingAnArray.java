@@ -14,6 +14,12 @@ public class reversingAnArray {
         }
 
         // Approach - 1
+//        System.out.print("The reversed array is : ");
+//        for(int i = n - 1  ; i >= 0 ; i--){
+//            System.out.print(arr[i]+" ");
+//        }
+
+        // Approach - 2
         int temp;
         for (int i = 0; i < n / 2 ; i++) {
             temp = arr[i];
