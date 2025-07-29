@@ -4,18 +4,18 @@ import java.lang.String;
 
 public class declaringString {
     // It behaves like a literal because of:
-    // 1. String is a class but can be used like a data type.
+    // 1. String is a class but can be used like a data type / Non Premitive Data Type.
     // 2. String literals are stored in the String Pool for memory optimization.
 
     public static void main(String[] args) {
         System.out.println();
 
         // Type - 1: String Literal (recommended way)
-        String str1 = "Chandra Sekhar"; // Stored in String Pool
+        String str1 = "Chandra Sekhar"; // Stored in String Pool Memory
         System.out.println(str1);
         String str3 = "Chandra Sekhar";
 
-        // Type - 2: Using the new keyword (creates a new object in heap)
+        // Type - 2: Using the new keyword (creates a new object in Heap Memory)
         String str2 = new String("Chandra Sekhar"); // Allocated outside of String Pool , In Heap Storage.
         System.out.println(str2);
         System.out.println();
