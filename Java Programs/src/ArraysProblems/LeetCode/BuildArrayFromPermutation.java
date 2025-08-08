@@ -1,4 +1,4 @@
-package ArraysProblems;
+package ArraysProblems.LeetCode;
 // LeetCode 1920: Build Array from Permutation
 // Given a zero-based permutation array nums, build an array ans such that ans[i] = nums[nums[i]].
 
