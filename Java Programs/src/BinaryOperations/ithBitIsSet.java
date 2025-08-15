@@ -1,6 +1,6 @@
 // Question: Given a number N and a position i, check if the ith bit of N is set (1) or not (0).
 
-package BitwiseOperators;
+package BinaryOperations;
 
 import java.util.Scanner;
 
