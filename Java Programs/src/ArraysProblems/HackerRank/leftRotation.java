@@ -1,6 +1,6 @@
 // Program to perform left rotation of an array by d positions
 
-package ArraysProblems;  // Package declaration
+package ArraysProblems.HackerRank;  // Package declaration
 
 import java.util.Scanner;  // Import Scanner for user input
 
