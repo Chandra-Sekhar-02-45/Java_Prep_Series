@@ -1,4 +1,7 @@
 // Program to implement Selection Sort
+// In Selection Sort, we repeatedly select the smallest element from the unsorted part of the array
+// and swap it with the element at the current index, gradually building a sorted portion at the beginning.
+
 
 package SortingAlgorithms;
 import java.util.*;
