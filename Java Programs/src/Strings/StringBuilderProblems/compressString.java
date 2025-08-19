@@ -1,7 +1,7 @@
 // Program to compress a string using counts of consecutive characters
 // Example: input = "aaabbc" -> output = "a3b2c1"
 
-package StringBuilderProblems;
+package Strings.StringBuilderProblems;
 import java.util.Scanner;
 
 public class compressString {

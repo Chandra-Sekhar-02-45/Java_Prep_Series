@@ -2,7 +2,7 @@
 // Question: Given a positive integer num consisting only of digits 6 and 9,
 // return the maximum number you can get by changing at most one digit (6 becomes 9).
 
-package StringBuilderProblems;
+package Strings.StringBuilderProblems;
 
 import java.util.Scanner;
 
