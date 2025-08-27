@@ -7,15 +7,15 @@ import java.util.*;
 public class SelectionSort_SwapIndexes {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int T = sc.nextInt();
-
-        while(T-- > 0) {
+            System.out.print("Enter the size of the array: ");
             int n = sc.nextInt();
+            System.out.print("Enter the elements of the array: ");
             int[] arr = new int[n];
 
             for(int i = 0; i < n; i++) {
                 arr[i] = sc.nextInt();
             }
+            System.out.println("Swaped Indexes are : ");
 
             // We loop from the end of the array backwards. In each step, we place the largest
             // element of the unsorted part at the correct position at the end.
@@ -38,7 +38,6 @@ public class SelectionSort_SwapIndexes {
             }
 
             System.out.println();
-        }
         sc.close();
     }
 }
