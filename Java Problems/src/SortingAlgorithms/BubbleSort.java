@@ -50,3 +50,13 @@ public class BubbleSort {
         }
     }
 }
+
+/*
+Time Complexity:
+    Best Case: O(n)   // Array is already Sorted
+    Average Case: O(n^2)
+    Worst Case: O(n^2)
+
+Space Complexity:
+    O(1)   // In-place sorting, uses only constant extra space
+*/
