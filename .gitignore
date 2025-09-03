@@ -1,0 +1,17 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Mac system files
+.DS_Store
+
+# Logs
+*.log
+
+# Compiled files
+*.class
+
+# Other build/target folders
+target/
+build/
