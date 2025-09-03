@@ -1,9 +1,0 @@
-# IntelliJ IDEA
-out/
-
-# Mac system files
-.DS_Store
-
-# Other build/target folders
-target/
-build/
