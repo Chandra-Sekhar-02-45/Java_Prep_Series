@@ -1,0 +1,10 @@
+# Compiled output folders
+out/
+production/
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+
+# macOS metadata files
+.DS_Store
